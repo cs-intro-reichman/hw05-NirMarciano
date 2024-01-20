@@ -15,7 +15,7 @@ public class GameOfLife {
 		//// (Run one test at a time).
 		//test1(fileName);
 		//test2(fileName);
-		//test3(fileName, 3);
+		test3(fileName, 3);
 		//play(fileName);
 
 	}
@@ -148,7 +148,7 @@ public class GameOfLife {
     public static void print(int[][] arr) {
 		for(int i = 1; i < arr.length - 1 ; i++) {
 			for(int j = 1; j < arr[i].length - 1; j++){
-				System.out.printf("%s ", arr[i][j]);
+				System.out.printf("%d ", arr[i][j]);
 			}
 		System.out.println();
 		}
