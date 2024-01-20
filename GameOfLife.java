@@ -16,7 +16,7 @@ public class GameOfLife {
 		//test1(fileName);
 		//test2(fileName);
 		//test3(fileName, 3);
-		play(fileName);
+		//play(fileName);
 
 	}
 	
@@ -149,10 +149,9 @@ public class GameOfLife {
     public static void print(int[][] arr) {
 		for(int i = 0; i < arr.length ; i++) {
 			for(int j = 0; j < arr[i].length; j++){
-				System.out.printf("%4s ", arr[i][j]);
+				System.out.printf("%s ", arr[i][j]);
 			}
-			System.out.printf("%n");
-			System.out.printf("%n");
+		System.out.println();
 		}
 	}
 
